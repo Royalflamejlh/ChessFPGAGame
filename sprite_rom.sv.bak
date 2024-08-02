@@ -1,0 +1,9 @@
+`define NUM_SPRITES 32
+
+module sprite_rom (input logic [18:0] data_in,
+						 input logic [7:0]  addr,
+						 input logic clk, reset, clear, write,
+						 output logic [18:0][18:0] sprite_out
+						)
+logic [18:0][18:0] SRITE_REG [`NUM_SPRITES];
+logic [7:0] SPRITE_IDX [`NUM_SPRITES];

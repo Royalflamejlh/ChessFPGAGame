@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="175" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="132" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Project,Project/ECE 385 Custom IPs,Library" />
+ <window width="2143" height="1158" x="110" y="243" />
+ <hdlexample language="VERILOG" />
+</preferences>
